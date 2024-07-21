@@ -1,0 +1,118 @@
+@font-face {
+  font-family: vintageOne;
+  src: url("./fonts/old3.ttf");
+}
+@font-face {
+  font-family: vintageTwo;
+  src: url("./fonts/18thCentury.ttf");
+}
+@font-face {
+  font-family: vintageThree;
+  src: url("./fonts/Next\ Century.ttf");
+}
+
+@font-face {
+  font-family: fontOne;
+  src: url("../../fonts/Louis\ George\ Cafe.ttf");
+}
+
+:root {
+  --primary: #5e503f;
+  --secondary: #f2f4f3;
+  --blueScene: #22333b;
+  --fPrimary: #0a0908;
+  --fSecondary: #ffffec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#order-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px 16px;
+}
+.order-item {
+  padding: 10px;
+  background-color: #5e503f;
+  border: 1px solid #ccc;
+}
+.order-date {
+  font-size: 1rem;
+  font-family: fontOne;
+  margin-top: 8px;
+}
+.order-name,
+.order-total-price {
+  font-family: fontOne;
+  font-size: 1rem;
+  color: var(--fSecondary);
+}
+.order-total-price {
+  padding: 4px 0px;
+}
+
+.divider-con {
+  width: 100%;
+  padding: 8px 2px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #0a0908;
+}
+.order-footer {
+  width: 100%;
+  padding: 8px;
+}
+.order-status {
+  padding: 8px 0px;
+}
+.order-status h3 {
+  font-family: fontOne;
+  font-size: 1rem;
+}
+.order-footer button {
+  padding: 4px;
+}
+#order-status-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cancel-order-confirmation {
+  display: none;
+  padding: 8px;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: var(--secondary);
+  border-radius: 8px;
+}
+.cancel-order-confirmation.active {
+  display: flex;
+}
+#cancel-order-prompt-title h1 {
+  font-size: 1rem;
+  font-family: fontOne;
+}
+.cancel-order-confirmation button {
+  width: 100%;
+  padding: 4px;
+}
+#cancel-order-buttons {
+  display: flex;
+  width: 100%;
+  padding: 8px 0px;
+  gap: 8px;
+  justify-content: flex-end;
+}

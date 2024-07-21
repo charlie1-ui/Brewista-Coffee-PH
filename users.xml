@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+  <user>
+    <name>Demo name 1</name>
+    <username>userDemo1</username>
+    <idNumber>213334</idNumber>
+    <password>demo123</password>
+    <contact>@email</contact>
+    <address>Demo Address</address>
+  </user>
+  <user>
+    <name>Demo name 2</name>
+    <username>userDeme2</username>
+    <idNumber>3423</idNumber>
+    <password>demo123</password>
+    <contact>@email</contact>
+    <address>Demo Address</address>
+  </user>
+  <user>
+    <name>Demo name 3</name>
+    <username>userDemo3</username>
+    <idNumber>34234</idNumber>
+    <password>demo123</password>
+    <contact>@email</contact>
+    <address>Demo Address</address>
+  </user>
+  <user>
+    <username>demoUser</username>
+    <name>Demo Fullname</name>
+    <idNumber>927111</idNumber>
+    <password>123</password>
+    <contact>@email</contact>
+    <address>Demo Address</address>
+  </user>
+</users>

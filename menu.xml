@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item category="hot">
+        <name>Americano</name>
+        <pricing>["120Z:70.00","160Z:100.00"]</pricing>
+        <rating>5.0</rating>
+        <imgSrc>./assets/coffee5.jpg</imgSrc>
+    </item>
+    <item category="hot">
+        <name>Latte</name>
+        <pricing>["120Z:80.00","160Z:110.00"]</pricing>
+        <rating>5.0</rating>
+        <imgSrc>./assets/coffee2.jpg</imgSrc>
+    </item>
+    <item category="hot">
+        <name>Cappuccino</name>
+        <pricing>["120Z:80.00","160Z:110.00"]</pricing>
+        <rating>5.0</rating>
+        <imgSrc>./assets/coffee8.jpg</imgSrc>
+    </item>
+
+    <item>
+        <name>Mocha</name>
+        <pricing>["120Z:120.00","160Z:160.00"]</pricing>
+        <rating>5.0</rating>
+        <imgSrc>./assets/coffee3.jpg</imgSrc>
+    </item>
+
+    <item>
+        <name>Spanish Lattee</name>
+        <pricing>["120Z:120.00","160Z:160.00"]</pricing>
+        <rating>5.0</rating>
+        <imgSrc>./assets/coffee5.jpg</imgSrc>
+    </item>
+
+    <item>
+        <name>Salted Caramel</name>
+        <pricing>["120Z:120.00","160Z:160.00"]</pricing>
+        <rating>5.0</rating>
+        <imgSrc>./assets/coffee9.jpg</imgSrc>
+        <category>espresso</category>
+    </item>
+
+    <item category="mainMenu">
+        <name>Espresso Shot</name>
+        <pricing>["1:30.00"]</pricing>
+        <rating>4.8</rating>
+        <imgSrc>./assets/coffee2.jpg</imgSrc>
+        <category>modifiers</category>
+    </item>
+
+    <item category="mainMenu">
+        <name>Whipped Cream</name>
+        <pricing>["1:30.00"]</pricing>
+        <rating>4.8</rating>
+        <imgSrc>./assets/coffee6.jpg</imgSrc>
+        <category>modifiers</category>
+    </item>
+
+    <item category="mainMenu">
+        <name>Datside Datmilk</name>
+        <pricing>["1:50.00"]</pricing>
+        <rating>4.8</rating>
+        <imgSrc>./assets/coffee10.jpg</imgSrc>
+        <category>modifiers</category>
+    </item>
+
+    <item category="mainMenu">
+        <name>Espresso Jelly</name>
+        <pricing>["1:20.00"]</pricing>
+        <rating>4.8</rating>
+        <imgSrc>./assets/coffee11.jpg</imgSrc>
+        <category>modifiers</category>
+    </item>
+
+    <item category="mainMenu">
+        <name>Bottled Coffee</name>
+        <pricing>["1:130.00"]</pricing>
+        <rating>4.9</rating>
+        <imgSrc>./assets/coffee12.jpg</imgSrc>
+        <category>modifiers</category>
+    </item>
+</root>

@@ -1,0 +1,11 @@
+// {
+//     "itemName": "New Item",
+//     "customerName": "New Customer",
+//     "customerContact": "new@customer.com",
+//     "curstomerAddress": "New Address",
+//     "itemPrice": "5",
+//     "orderNumber": "000002",
+//     "quantity": "1",
+//     "totalPrice": "5",
+//     "timestamp": "July 11, 2024"
+// }
